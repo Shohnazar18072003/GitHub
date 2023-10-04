@@ -1,0 +1,56 @@
+body .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body .container form {
+  text-align: center;
+}
+body .container form input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 3px solid rgb(163, 59, 59);
+  padding-left: 30px;
+  text-align: center;
+}
+body .container .cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+body .container .cards li {
+  width: 300px;
+  height: 400px;
+  border: 3px solid rgb(174, 77, 77);
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 10px;
+}
+body .container .cards li .btn1 {
+  background-color: chocolate;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  height: 50px;
+  margin-top: 30px;
+}
+body .container .cards li .btn1 a {
+  color: white;
+}
+body .container .cards li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+body .container .cards li p,
+body .container .cards li h2 {
+  font-family: "Roboto Mono", monospace;
+}
+body .container .cards li a {
+  font-family: "Roboto Mono", monospace;
+  text-decoration-line: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
